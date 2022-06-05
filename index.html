@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
+	<title>Howl's Moving Castle</title>
+</head>
+<body>
+	<div class="main">
+		<iframe src="film.mp4"></iframe>
+	</div>
+	<div class="block">
+		<div class="close" style="position: fixed; right: 20px;top: 5px ;" > 
+				<button id="close" style="background: none; border: none; cursor: pointer; color: white;">Close X</button>
+				<script type="text/javascript">
+					const close = document.querySelector('#close');
+					const block=document.querySelector('.block')
+
+					close.addEventListener('click',()=>{
+						block.classList.add('remove')
+					})
+				</script>
+			</div>
+		<div class="blcok-child">
+			<div class="main-a">
+			<div class="p-picture">
+				<img src="https://m.media-amazon.com/images/M/MV5BMjZmNWZmZDMtMjcyZS00NGYwLTlkZmYtZDA0YzAyN2RiNzM0XkEyXkFqcGdeQXVyMzg2MzE2OTE@._V1_FMjpg_UX1000_.jpg">
+			</div>
+			<div class="about">
+				<div class="row">
+				<h1>8.2</h1>
+				<h2>Howl's Moving Castle</h2>
+				</div>
+				<div class="column">
+					<p>Kendine güveni olmayan genç bir kadın, kinci bir cadı tarafından yaşlı bir bedenle lanetlendiğinde, büyüyü bozmak için tek şansı, rahatına düşkün ama kendine güveni olmayan genç bir büyücü ve onun bacaklı, yürüyen şatosundaki arkadaşlarıdır.</p>
+				</div>
+				<div class="slider">
+				<div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/iwROgK94zcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>,<div class="swiper-slide"><iframe src="https://imdb-video.media-imdb.com/vi3502817561/1434659607842-pgv4ql-1605706014921.mp4?Expires=1654370656&Signature=POlYgyXVyjRbDYsGBpBNkhgtotJ4vxo-GyKWpfIZwYQwJci1Hz39lNuJ82HkOpY598D~O5qr1j1d6eDdmkfxn4dyog0hMWWnFnDgKai~n3saULq2wnQ7iFxKnjhPcNdD-Q2eQUNfPvuu2WzNEQB9ieC6Q0lphsSWAfpV8puCinq9SUtWNEDhiI9zrtOaUjzplw9W8V9snJ-YbGAyjDma4qroIA~KYrFApMKDWrk94F4bJ8J0qXRLa-m9ZsFgmV2Wr8ak7xkwXZ8NDDLUrE0TdyQwifYZ2SMb2x256FD5dmjuXkg0REcjIyJS6hukU24MWYR~yd6IEEDJcKVle5RHKQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" allowfullscreen></iframe></div>
+                <div class="swiper-slide"><iframe src="https://imdb-video.media-imdb.com/vi1030792729/1434659607842-pgv4ql-1564580039338.mp4?Expires=1654372820&Signature=BnGA3IWWYyV2dXMwqMGD3xYSxNKtcxFo35q40oT5svJ-RnMccpbRr7a-FfMNnkd-eTY0BdRZI6hUUnWJbp6scz1C2eObl2Ug4T6K6LF02uxNcXQ7AYHJiqESvkTSM~k5WP9DZnEQvC9meW90LsVWD79Ncxr-GX7LGQ3hfy8QdrCxJkDAJbVbigAB4mYL4vToOaarf2x54KKEh92HZPtPKwicVAjgZxtH2uWq2ToWLB~TbS6grIveqe10Xmyqwr~dQgJ4t-sEJaSrsU7w7yCH27RHMR3Y8M7t5OQlI431f0O-4h1ekmP2X~zPkzAL0f4uf7kNFtkmO5KXxU21o6KYQw__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" allowfullscreen></iframe></div>
+                <div class="swiper-slide"><img src="p.jpg"></div>
+                <div class="swiper-slide"><img src="https://m.media-amazon.com/images/M/MV5BMTM3NzI5MTg2Nl5BMl5BanBnXkFtZTcwMjk1NzEyNw@@._V1_.jpg"></div>
+                <div class="swiper-slide"><img src="https://m.media-amazon.com/images/M/MV5BMTUzMjgxNjYyOV5BMl5BanBnXkFtZTcwNDk1NzEyNw@@._V1_.jpg"></div>
+                <div class="swiper-slide"><img src="https://m.media-amazon.com/images/M/MV5BMTg2NDE1NDI2OV5BMl5BanBnXkFtZTcwOTk1NzEyNw@@._V1_.jpg"></div>
+                <div class="swiper-slide"><img src="https://m.media-amazon.com/images/M/MV5BMTkyNTExOTM2OV5BMl5BanBnXkFtZTcwNTk1NzEyNw@@._V1_.jpg"></div>
+                <div class="swiper-slide"><img src="https://m.media-amazon.com/images/M/MV5BMTU1NTE5NjQ0OF5BMl5BanBnXkFtZTcwMzk1NzEyNw@@._V1_.jpg"></div>
+                
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<script>
+            var swiper = new Swiper('.mySwiper', {
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                    speed: 300,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+</body>
+</html>
